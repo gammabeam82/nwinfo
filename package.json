@@ -1,0 +1,21 @@
+{
+  "name": "network-info",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "nwinfo": "./index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "dateformat": "^3.0.3",
+    "node-notifier": "^5.2.1",
+    "oui": "^7.0.42"
+  }
+}
