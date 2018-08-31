@@ -11,7 +11,7 @@ const { exec } = require('child_process');
 const interval = 120; // sec
 const command = "sudo nmap -sn 192.168.1.1/26 --disable-arp-ping";
 const ipRegex = /([0-9]{1,3}\.){3}([0-9]{1,3}){1}/g;
-const macRegex = /([0-9a-f]{2}:){5}([0-9a-f]{2})/gi;
+const macRegex = /([0-9a-f]{2}:?){6}/gi;
 
 const getList = () => {
   return new Promise((resolve, reject) => {
